@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+/*--CONFIGURAÇÃO DA BARRA DE NAVEGAÇÃO--*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    background: #02e095;
+    color: white;
+    font-size: 17px;
+}
+
+/*-- FINAL DAS CONFIGURAÇÃO DA BARRA DE NAVEGAÇÃO--*/
+
+
+
+/*--INICIO DOS TEXTOS PRINCIPAIS--*/
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*--FINAL DOS TEXTOS PRINCIPAIS--*/
+
+
+
+
+/*--INICIO DA ESTILIZAÇÃO DOS DOIS BOTÃO--*/
+.btn {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    border: none;
+}
+
+
+
+.btn1 {
+    border: none;
+    color: black;
+    font-family: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 30px;
+}
+
+
+.btn2 {
+    border: none;
+    color: white;
+    background: black;
+    font-family: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.btn1:hover {
+    background: white;
+}
+
+.btn2:hover {
+    background: gray;
+}
+
+/*--FINAL DA ESTILIZAÇÃO DOS DOIS BOTÃO--*/
+
+
+
+
+
+
+
+
+.footer {
+    background: black;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.conteudo-footer {
+    display: flex;
+    padding: 2rem;
+    gap: 5rem;
+}
+
+
+
+.whatsapp {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+
+
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+
+}
+
+.card>img {
+    width: 100%;
+}
+
+.h1 {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.bt-container {
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+
+
+}
+
+.bt-container>button {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.bt-container:hover>button {
+    background: black;
+    cursor: pointer;
+}
