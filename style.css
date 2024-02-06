@@ -107,12 +107,12 @@ p {
 
 
 .footer {
+    display: flex;
     background: black;
     border-top: 1px solid #333;
     bottom: 0;
     left: 0;
     height: 70px;
-    position: fixed;
     width: 100%;
 }
 
