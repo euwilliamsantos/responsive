@@ -10,6 +10,7 @@
 nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
     padding: 2rem;
     background: black;
 }
@@ -180,8 +181,9 @@ p {
 
 .bt-container {
     display: flex;
-    text-align: center;
+    justify-content: center;
     padding: 2rem;
+
 
 
 }
@@ -195,4 +197,11 @@ p {
 .bt-container:hover>button {
     background: black;
     cursor: pointer;
+}
+
+
+
+
+.conteudo {
+    display: flex;
 }
